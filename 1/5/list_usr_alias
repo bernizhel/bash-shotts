@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+
+alias ls_usr='cd /usr; ls; cd -'
+

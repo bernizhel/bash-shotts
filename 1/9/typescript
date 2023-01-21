@@ -1,0 +1,38 @@
+Script started on 2023-01-21 20:27:52+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="82" LINES="41"]
+]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ sudo chown  :music Music
+[sudo] password for bernizhel: 
+]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ chmod 76[K76[K5 M usic
+]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ ls -ld !:$
+ls -ld Music
+drwxrwxr-x 2 bernizhel music 4096 Jan 21 20:26 [0m[01;34mMusic[0m
+]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ > Music/tes t_file
+]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ ls -l Mu[K[K!:$:t [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
+ls -l test_file
+ls: cannot access 'test_file': No such file or directory
+]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ ls -l test_file[A]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl[K> Music/test_file[A]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ ls -ld Music[K[A]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ > Music/test_file
+]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ > Music/test_file[A]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C> Music/test_file[A]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ck[Kls -l !:$:h [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kh
+ls -l Music
+total 0
+-rw-r--r-- 1 bernizhel bernizhel 0 Jan 21 20:29 test_file
+]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ j[Ksudho[K[Ko cm[Khmo [Kd  g+s Music
+]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ ls -ld Muci s[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksi c
+drwxrwsr-x 2 bernizhel music 4096 Jan 21 20:28 [0m[01;34mMusic[0m
+]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ umask 9[K0002
+]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ rm Music/te st-[K_files[K
+]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ > !:$
+> Music/test_file
+]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ mkdir !:$:h /test_dir
+mkdir Music/test_dir
+]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ mkdir Music/test_dir[A]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l !:4[K$:h [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kh
+ls -l Music
+total 4
+drwxrwsr-x 2 bernizhel music 4096 Jan 21 20:30 [0m[01;34mtest_dir[0m
+-rw-rw-r-- 1 bernizhel music    0 Jan 21 20:30 test_file
+]0;bernizhel@ubuntu-ideapad: ~/Documents/programming/bash/bash-shotts/1/9[01;32mbernizhel@ubuntu-ideapad[00m:[01;34m~/Documents/programming/bash/bash-shotts/1/9[00m$ exit
+
+Script done on 2023-01-21 20:31:04+03:00 [COMMAND_EXIT_CODE="0"]
