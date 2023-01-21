@@ -1,0 +1,4 @@
+total 8.0K
+-rw-r--r-- 1 bernizhel bernizhel  0 Jan 22 02:04 bar.txt
+-rw-r--r-- 1 bernizhel bernizhel 64 Jan 22 01:58 foo.txt
+-rw-r--r-- 1 bernizhel bernizhel 80 Jan 22 01:58 foo.txt.gz
