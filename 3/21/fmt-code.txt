@@ -1,0 +1,11 @@
+# This is a comment line
+
+# Another comment line.
+# Let it be here or rather
+# even here? I don't know exactly.
+
+int main()
+{
+	void *ptr = *(1);
+}
+
