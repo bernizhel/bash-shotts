@@ -1,0 +1,16 @@
+#! /usr/bin/env bash
+
+declare -r FTP_SERVER='ftp.nl.debian.org'
+declare -r FRP_PATH='/debian/dists/lenny/main/installer-i386/current/images/cdrom'
+declare -r REMOTE_FILE='debian-cd_info.tar.gz'
+
+lftp -n <<- _EOF_
+	open $FTP_SERVER
+	cd $FTP_PATH
+	hash
+	get $REMOTE_FILE
+	bye
+_EOF_
+
+ls -lF $REMOTE_FILE
+

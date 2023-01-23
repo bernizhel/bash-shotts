@@ -1,0 +1,21 @@
+#! /usr/bin/env bash
+
+for i; do
+	if [[ -r $i ]]; then
+		max_length=0
+		max_word=""
+
+		for j in $(strings $i); do
+			length=${#j}
+
+			if (($length > $max_length)); then
+				max_length=$length
+				max_word=$j
+			fi
+
+		done
+
+		echo "$i: '$max_word' ($max_length characters)"
+	fi
+done
+

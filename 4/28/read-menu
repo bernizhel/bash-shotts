@@ -1,0 +1,64 @@
+#! /usr/bin/env bash
+
+declare -r PROMPT_STRING="
+Please, select options listed below:
+
+A. Display System Information
+B. Display Disk Space
+C. Display Home Space Utilization
+Q. Quit
+"
+
+while true; do
+	clear -x
+
+	echo "$PROMPT_STRING"
+
+	read -p "Enter selection [A-C, Q] > "
+
+	if test -z $(echo "$REPLY" | grep -E "^[a-cqA-CQ]$"); then
+		echo "Invalid entry." >& 2
+
+		read -p "Press any key to continue..."
+
+		continue
+	fi
+
+	case "$REPLY" in
+		q|Q)	echo "Program terminated."
+
+				break
+				;;
+
+		a|A)	echo "Hostname: $HOSTNAME"
+	
+				uptime
+	
+				read -p "Press any key to continue..."
+				;;
+	
+		b|B)	df -h
+	
+				read -p "Press any key to continue..."
+				;;
+	
+		c|C)	if test $(id -u) -eq 0; then
+					echo "Calculating..."
+					du -sh /home/* /root | sed "1iHome Space Utilization (All users)"
+		
+				else
+					echo "Calculating..."
+					du -sh "$HOME" | sed "1iHome Space Utilization ($USER)"
+	
+				fi
+
+				read -p "Press any key to continue..."
+				;;
+
+		*)		echo "Invalid entry" >& 2
+				
+				continue
+				;;
+	esac
+done
+

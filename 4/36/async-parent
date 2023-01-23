@@ -1,0 +1,18 @@
+#! /usr/bin/env bash
+
+echo "Parent: starting..."
+echo "Parent: launching child script..."
+
+./async-child &
+pid=$!
+echo "Parent: child (PID=$pid) launched."
+
+echo "Parent: continuing..."
+sleep 2
+
+echo "Parent: pausing to wait for the child to finish..."
+wait "$pid"
+
+echo "parent: child is finished. Continuing..."
+echo "Parent: parent is done. Exiting."
+

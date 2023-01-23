@@ -1,0 +1,19 @@
+#! /usr/bin/env bash
+
+COUNT_FROM="$1"
+COUNT_TO="$2"
+
+
+if [[ ! "$COUNT_TO" =~ ^-?[0-9]+$ || ! "$COUNT_FROM" =~ ^-?[0-9]+$ ]]; then
+	echo "An integer expected." >& 2
+	exit 1
+fi
+
+while [ "$COUNT_FROM" -le "$COUNT_TO" ]; do
+	echo $COUNT_FROM
+	COUNT_FROM=$(($COUNT_FROM + 1))
+done
+
+echo "Finished."
+exit 0
+

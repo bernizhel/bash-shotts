@@ -1,0 +1,9 @@
+#! /usr/bin/env bash
+
+sort -k 1,1 -k 2n | while read distro version release; do
+	printf "Distro: %s\tVersion: %s\treleased: %s\n" \
+			$distro \
+			$version \
+			$release
+done
+

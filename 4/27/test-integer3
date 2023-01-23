@@ -1,0 +1,20 @@
+#! /usr/bin/env bash
+
+declare -r MIN_VAL=1
+declare -r MAX_VAL=100
+
+INT="$1"
+
+if ! [[ "$INT" =~ ^-?[0-9]+$ ]]; then
+	echo "The given value is not an integer." >& 2
+	exit 1
+fi
+
+if (($INT >= $MIN_VAL && $INT <= $MAX_VAL)); then
+	echo "$INT is within the range of $MIN_VAL and $MAX_VAL."
+else
+	echo "$INT is out of of $MIN_VAL and $MAX_VAL."
+fi
+
+exit 0
+
